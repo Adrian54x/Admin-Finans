@@ -1,4 +1,5 @@
-﻿using Admin_Finans.Menus;
+﻿using Admin_Finans.Ingresos;
+using Admin_Finans.Menus;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +25,15 @@ namespace Admin_Finans
             MenuPrincipal principal = new MenuPrincipal(panelOriginal);
             principal.Dock = DockStyle.Fill;
             panelOriginal.Controls.Add(principal);
+        }
+
+        private void TipoImgreso(object sender, EventArgs e) 
+        {
+            panelOriginal.Controls.Clear();
+            string tipo = (sender == ingreso) ? "Ingreso" : (sender == egreso) ? "Egreso" : "";
+            Ingreso tipoIngreso = new Ingreso(panelOriginal,tipo);
+            tipoIngreso.Dock = DockStyle.Fill;
+            panelOriginal.Controls.Add(tipoIngreso);
         }
     }
 }

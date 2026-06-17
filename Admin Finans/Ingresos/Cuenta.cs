@@ -24,7 +24,7 @@ namespace Mis_finansas_Consola
         public DateTime Fecha 
         { 
             get => fecha; 
-            set => fecha = (value.Year > 2025) ? value : throw new ArgumentException("Ingreso de fecha no inválida!"); 
+            set => fecha = (value.Year > 2025 && value.Date <= DateTime.Today) ? value : throw new ArgumentException("Ingreso de fecha no inválida!"); 
         }
 
         public decimal Monto 

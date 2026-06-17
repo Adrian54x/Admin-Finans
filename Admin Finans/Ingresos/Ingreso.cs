@@ -10,9 +10,20 @@ namespace Admin_Finans.Ingresos
 {
     public partial class Ingreso : UserControl
     {
-        public Ingreso()
+        private Panel panelOriginal;
+        public Ingreso(Panel panel, string tipo)
         {
             InitializeComponent();
+            panelOriginal = panel;
+            label1.Text = tipo;
+        }
+
+        private void Regresar(object sender, EventArgs e)
+        {
+            panelOriginal.Controls.Clear();
+            ControlFinansas regresar = new ControlFinansas(panelOriginal);
+            regresar.Dock = DockStyle.Fill;
+            panelOriginal.Controls.Add(regresar);
         }
     }
 }

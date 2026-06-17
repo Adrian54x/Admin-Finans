@@ -36,7 +36,7 @@
             Principal.Dock = DockStyle.Fill;
             Principal.Location = new Point(0, 0);
             Principal.Name = "Principal";
-            Principal.Size = new Size(900, 499);
+            Principal.Size = new Size(1372, 638);
             Principal.TabIndex = 0;
             // 
             // Ventana1
@@ -44,14 +44,17 @@
             AutoScaleDimensions = new SizeF(8F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(900, 499);
+            ClientSize = new Size(1372, 638);
             Controls.Add(Principal);
             Font = new Font("Microsoft Sans Serif", 8.25F);
             ForeColor = SystemColors.ControlText;
             Margin = new Padding(4, 5, 4, 5);
+            MaximizeBox = false;
+            MaximumSize = new Size(1390, 685);
+            MinimumSize = new Size(1390, 685);
             Name = "Ventana1";
             Text = "Admin finans";
-            Load += this.Cargar;
+            Load += Cargar;
             ResumeLayout(false);
         }
 
