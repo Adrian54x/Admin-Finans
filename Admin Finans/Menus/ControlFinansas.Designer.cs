@@ -77,6 +77,7 @@
             // regresar
             // 
             regresar.BackColor = Color.Yellow;
+            regresar.Cursor = Cursors.Hand;
             regresar.FlatAppearance.BorderColor = Color.Black;
             regresar.FlatAppearance.BorderSize = 2;
             regresar.FlatAppearance.MouseDownBackColor = Color.Khaki;
@@ -95,6 +96,7 @@
             // deseo
             // 
             deseo.BackColor = Color.Yellow;
+            deseo.Cursor = Cursors.Hand;
             deseo.FlatAppearance.BorderColor = Color.Black;
             deseo.FlatAppearance.BorderSize = 2;
             deseo.FlatAppearance.MouseDownBackColor = Color.Khaki;
@@ -112,6 +114,7 @@
             // presupuesto
             // 
             presupuesto.BackColor = Color.Yellow;
+            presupuesto.Cursor = Cursors.Hand;
             presupuesto.FlatAppearance.BorderColor = Color.Black;
             presupuesto.FlatAppearance.BorderSize = 2;
             presupuesto.FlatAppearance.MouseDownBackColor = Color.Khaki;
@@ -129,6 +132,7 @@
             // egreso
             // 
             egreso.BackColor = Color.Yellow;
+            egreso.Cursor = Cursors.Hand;
             egreso.FlatAppearance.BorderColor = Color.Black;
             egreso.FlatAppearance.BorderSize = 2;
             egreso.FlatAppearance.MouseDownBackColor = Color.Khaki;
@@ -147,6 +151,7 @@
             // ingreso
             // 
             ingreso.BackColor = Color.Yellow;
+            ingreso.Cursor = Cursors.Hand;
             ingreso.FlatAppearance.BorderColor = Color.Black;
             ingreso.FlatAppearance.BorderSize = 2;
             ingreso.FlatAppearance.MouseDownBackColor = Color.Khaki;

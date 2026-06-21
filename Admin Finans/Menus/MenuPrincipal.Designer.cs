@@ -46,6 +46,7 @@
             // opcion1
             // 
             opcion1.BackColor = Color.Yellow;
+            opcion1.Cursor = Cursors.Hand;
             opcion1.FlatAppearance.BorderColor = Color.Black;
             opcion1.FlatAppearance.BorderSize = 2;
             opcion1.FlatAppearance.MouseDownBackColor = Color.Khaki;
@@ -65,6 +66,7 @@
             // opcion2
             // 
             opcion2.BackColor = Color.Yellow;
+            opcion2.Cursor = Cursors.Hand;
             opcion2.FlatAppearance.BorderColor = Color.Black;
             opcion2.FlatAppearance.BorderSize = 2;
             opcion2.FlatAppearance.MouseDownBackColor = Color.Khaki;
@@ -83,6 +85,7 @@
             // opcion3
             // 
             opcion3.BackColor = Color.Yellow;
+            opcion3.Cursor = Cursors.Hand;
             opcion3.FlatAppearance.BorderColor = Color.Black;
             opcion3.FlatAppearance.BorderSize = 2;
             opcion3.FlatAppearance.MouseDownBackColor = Color.Khaki;
@@ -101,6 +104,7 @@
             // salir
             // 
             salir.BackColor = Color.Yellow;
+            salir.Cursor = Cursors.Hand;
             salir.FlatAppearance.BorderColor = Color.Black;
             salir.FlatAppearance.BorderSize = 2;
             salir.FlatAppearance.MouseDownBackColor = Color.Khaki;
