@@ -26,6 +26,14 @@ namespace Admin_Finans.Menus
             panelPrincipal.Controls.Add(principal);
         }
 
+        private void Opcion2(object sender, EventArgs e)
+        {
+            panelPrincipal.Controls.Clear();
+            MostrarFinanzas principal = new MostrarFinanzas(panelPrincipal);
+            principal.Dock = DockStyle.Fill;
+            panelPrincipal.Controls.Add(principal);
+        }
+
         private void Salir(object sender, EventArgs e)
         {
             FindForm().Close();

@@ -1,4 +1,5 @@
 using Admin_Finans.Menus;
+using Mis_finansas_Consola;
 
 namespace Admin_Finans
 {
@@ -15,6 +16,8 @@ namespace Admin_Finans
             MenuPrincipal menuPrincipal = new MenuPrincipal(Principal);
             menuPrincipal.Dock = DockStyle.Fill;
             Principal.Controls.Add(menuPrincipal);
+            Finansas crear = new Finansas();
+            crear.CrearTablas();
         }
     }
 }

@@ -81,6 +81,7 @@
             opcion2.Text = "Mis Finanzas";
             opcion2.TextAlign = ContentAlignment.MiddleLeft;
             opcion2.UseVisualStyleBackColor = false;
+            opcion2.Click += Opcion2;
             // 
             // opcion3
             // 

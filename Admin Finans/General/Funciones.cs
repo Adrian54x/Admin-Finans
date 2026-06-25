@@ -11,6 +11,7 @@ namespace Mis_finansas_Consola.General
 {
     internal class Funciones
     {
+
         //Funciones Basicas
 
         public int Rango(int inicio, int fin, int pocicionX, int pocicionY, int pocicionE)
