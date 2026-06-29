@@ -12,5 +12,6 @@ namespace Mis_finansas_Consola.General
         public static string[] tipo = { "Unico", "Semanal", "Mes", "Año" };
         public static string[] asignatuaIngreso = { "Trabajo", "Bono", "Regalo" }, asignatuaEgreso = { "Hogar", "Entretenimiento", "Emergencia", "Gusto" };
         public static uint cantidadIngresos = 0, cantidadEgresos = 0, cantidadPresupuesto = 0, cantidadDeseo = 0;
+        public static uint Ahorro = 40, Gasto = 30 , Gusto = 30, TotalIngresos = 0, TotalEgresos = 0, Total = 0;
     }
 }

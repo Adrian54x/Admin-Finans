@@ -9,12 +9,12 @@ using System.Windows.Forms;
 
 namespace Admin_Finans.Ingresos
 {
-    public partial class Ingreso : UserControl
+    public partial class IngresoEgreso : UserControl
     {
         private Panel panelOriginal;
         private Funciones funcion = new Funciones();
         private int contCaracter1 = 0, contCaracter2 = 0;
-        public Ingreso(Panel panel, string tipo)
+        public IngresoEgreso(Panel panel, string tipo)
         {
             InitializeComponent();
             panelOriginal = panel;

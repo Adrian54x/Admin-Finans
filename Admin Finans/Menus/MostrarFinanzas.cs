@@ -27,21 +27,28 @@ namespace Admin_Finans.Menus
 
         public string TipoTabla(object sender, EventArgs e)
         {
-            if (sender == ingresosOP1)
-                return "Ingreso";
-            else if (sender == egresosOP2)
-                return "Egreso";
-            else
-            {
-                MessageBox.Show("Opcion no valida");
-                return "Egreso";
-            }
+            //if (sender == ingresosop1)
+            //    return "ingreso";
+            //else if (sender == egresosop2)
+            //    return "egreso";
+            //else
+            //{
+            //    messagebox.show("opcion no valida");
+               return "egreso";
+            //}
         }
 
         private void Cargar(object sender, EventArgs e)
         {
             Finansas tabla = new Finansas();
             Mostrar.DataSource = tabla.MostarDatos("Ingreso");
+        }
+
+        private void Regresar(object sender, EventArgs e)
+        {
+            panelPrincipal.Controls.Clear();
+            MenuPrincipal regresar = new MenuPrincipal(panelPrincipal);
+            panelPrincipal.Controls.Add(regresar);
         }
     }
 }

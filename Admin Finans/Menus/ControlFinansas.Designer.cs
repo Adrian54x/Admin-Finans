@@ -66,11 +66,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Corbel", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.LightGreen;
-            label1.Location = new Point(238, 20);
+            label1.Location = new Point(219, 14);
             label1.Name = "label1";
-            label1.Size = new Size(307, 41);
+            label1.Size = new Size(396, 54);
             label1.TabIndex = 0;
             label1.Text = "Control de Finansas";
             // 
@@ -81,9 +81,9 @@
             regresar.FlatAppearance.BorderColor = Color.Black;
             regresar.FlatAppearance.BorderSize = 2;
             regresar.FlatAppearance.MouseDownBackColor = Color.Khaki;
-            regresar.FlatAppearance.MouseOverBackColor = Color.Yellow;
+            regresar.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
             regresar.FlatStyle = FlatStyle.Flat;
-            regresar.Font = new Font("Corbel", 16.2F, FontStyle.Bold);
+            regresar.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold);
             regresar.ForeColor = Color.Red;
             regresar.Location = new Point(397, 373);
             regresar.Name = "regresar";
@@ -100,9 +100,9 @@
             deseo.FlatAppearance.BorderColor = Color.Black;
             deseo.FlatAppearance.BorderSize = 2;
             deseo.FlatAppearance.MouseDownBackColor = Color.Khaki;
-            deseo.FlatAppearance.MouseOverBackColor = Color.Yellow;
+            deseo.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
             deseo.FlatStyle = FlatStyle.Flat;
-            deseo.Font = new Font("Corbel", 16.2F, FontStyle.Bold);
+            deseo.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold);
             deseo.ForeColor = Color.DarkBlue;
             deseo.Location = new Point(676, 256);
             deseo.Name = "deseo";
@@ -118,9 +118,9 @@
             presupuesto.FlatAppearance.BorderColor = Color.Black;
             presupuesto.FlatAppearance.BorderSize = 2;
             presupuesto.FlatAppearance.MouseDownBackColor = Color.Khaki;
-            presupuesto.FlatAppearance.MouseOverBackColor = Color.Yellow;
+            presupuesto.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
             presupuesto.FlatStyle = FlatStyle.Flat;
-            presupuesto.Font = new Font("Corbel", 16.2F, FontStyle.Bold);
+            presupuesto.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold);
             presupuesto.ForeColor = Color.DarkBlue;
             presupuesto.Location = new Point(114, 256);
             presupuesto.Name = "presupuesto";
@@ -136,9 +136,9 @@
             egreso.FlatAppearance.BorderColor = Color.Black;
             egreso.FlatAppearance.BorderSize = 2;
             egreso.FlatAppearance.MouseDownBackColor = Color.Khaki;
-            egreso.FlatAppearance.MouseOverBackColor = Color.Yellow;
+            egreso.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
             egreso.FlatStyle = FlatStyle.Flat;
-            egreso.Font = new Font("Corbel", 16.2F, FontStyle.Bold);
+            egreso.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold);
             egreso.ForeColor = Color.DarkBlue;
             egreso.Location = new Point(676, 140);
             egreso.Name = "egreso";
@@ -155,9 +155,9 @@
             ingreso.FlatAppearance.BorderColor = Color.Black;
             ingreso.FlatAppearance.BorderSize = 2;
             ingreso.FlatAppearance.MouseDownBackColor = Color.Khaki;
-            ingreso.FlatAppearance.MouseOverBackColor = Color.Yellow;
+            ingreso.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
             ingreso.FlatStyle = FlatStyle.Flat;
-            ingreso.Font = new Font("Corbel", 16.2F, FontStyle.Bold);
+            ingreso.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold);
             ingreso.ForeColor = Color.DarkBlue;
             ingreso.Location = new Point(114, 140);
             ingreso.Name = "ingreso";

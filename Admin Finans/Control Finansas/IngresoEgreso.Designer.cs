@@ -2,7 +2,7 @@
 
 namespace Admin_Finans.Ingresos
 {
-    partial class Ingreso
+    partial class IngresoEgreso
     {
         /// <summary> 
         /// Variable del diseñador necesaria.

@@ -31,7 +31,7 @@ namespace Admin_Finans
         {
             panelOriginal.Controls.Clear();
             string tipo = (sender == ingreso) ? "Ingreso" : (sender == egreso) ? "Egreso" : "";
-            Ingreso tipoIngreso = new Ingreso(panelOriginal,tipo);
+            IngresoEgreso tipoIngreso = new IngresoEgreso(panelOriginal,tipo);
             tipoIngreso.Dock = DockStyle.Fill;
             panelOriginal.Controls.Add(tipoIngreso);
         }
